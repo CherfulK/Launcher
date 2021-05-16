@@ -1,0 +1,94 @@
+import os, time
+import keyboard
+import random
+
+number = random.randint(100000000, 10000000000)
+
+print("                   __          ___      __    __  .__   __.   ______  __    __   _______ .______      ")
+print("                  |  |        /   \    |  |  |  | |  \ |  |  /      ||  |  |  | |   ____||   _  \     ")
+print("                  |  |       /  ^  \   |  |  |  | |   \|  | |  ,----'|  |__|  | |  |__   |  |_)  |    ")
+print("                  |  |      /  /_\  \  |  |  |  | |  . `  | |  |     |   __   | |   __|  |      /    ") 
+print("                  |  `----./  _____  \ |  `--'  | |  |\   | |  `----.|  |  |  | |  |____ |  |\  \----.")
+print("                  |_______/__/     \__\ \______/  |__| \__|  \______||__|  |__| |_______|| _| `._____|")
+print("")
+
+print("                                             Client Version : Velease 1.0")
+time.sleep(0.25)
+print("                                               Client ID :" ,number,)
+time.sleep(0.25)
+print("                                                Games Supported : 6")
+time.sleep(0.25)
+print("                                                 Creator : Cherful")
+time.sleep(0.75)
+
+os.system("cls")
+
+print("                   __          ___      __    __  .__   __.   ______  __    __   _______ .______      ")
+print("                  |  |        /   \    |  |  |  | |  \ |  |  /      ||  |  |  | |   ____||   _  \     ")
+print("                  |  |       /  ^  \   |  |  |  | |   \|  | |  ,----'|  |__|  | |  |__   |  |_)  |    ")
+print("                  |  |      /  /_\  \  |  |  |  | |  . `  | |  |     |   __   | |   __|  |      /    ") 
+print("                  |  `----./  _____  \ |  `--'  | |  |\   | |  `----.|  |  |  | |  |____ |  |\  \----.")
+print("                  |_______/__/     \__\ \______/  |__| \__|  \______||__|  |__| |_______|| _| `._____|")
+print("")
+time.sleep(2)
+print("")
+print("                                 ============           ========           =================            ")
+print("                                 = Valorant =           = CarX =           = Rocket League =            ")
+print("                                 ============           ========           =================            ")
+print("")
+print("                             ================         ============          ==============            ")
+print("                             = Startup Apps =         = Fortnite =          = OBS Studio =            ")
+print("                             ================         ============          ==============            ")
+time.sleep(1)
+print("")
+
+print("                                              Press V To Open Valorant")
+print("")
+print("                                            Press R To Open Rocket League")
+print("")
+print("                                                Press C To Open CarX")
+print("")
+print("                                              Press F To Open Fortnite")
+print("")
+print("                                            Press S To Open Startup Apps")
+print("")
+print("                                            Press O To Open OBS Studio")
+print("")
+print("                                             Press M To Create A File!")
+
+
+while True:
+    if keyboard.is_pressed('v'):
+        print("Launching!")
+        os.system("valorant.bat")
+        break
+
+    if keyboard.is_pressed('c'):
+            print("Launching!")
+            os.system("CarX.bat")
+            break
+
+    if keyboard.is_pressed('R'):
+            print("Launching!")
+            os.system("RL.bat")
+            break
+
+    if keyboard.is_pressed('F'):
+            print("Launching!")
+            os.system("fnbr.bat")
+            break
+
+    if keyboard.is_pressed('S'):
+            print("Launching!")
+            os.system("startup.bat")
+            break
+
+    if keyboard.is_pressed('O'):
+            print("Launching!")
+            os.system("obs.bat")
+            break
+
+    if keyboard.is_pressed('M'):
+            print("Creating!")
+            file=open("C:\\in\\testing.txt","w")
+            break
